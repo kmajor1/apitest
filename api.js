@@ -8,7 +8,7 @@ var config = {
 
 }
 
-var url = 'https://api-us.faceplusplus.com/facepp/v3/detect'+"?"+"api_key="+config.api_key+"&api_secret="+config.api_secret+"&image_url="+config.image_url;
+var url = 'https://api-us.faceplusplus.com/facepp/v3/detect?api_key=pKRNP7idVtOyasyMJnXlqmiEdEFqMQqo&api_secret=WeZwkBquRvK4iUfVUnfnGviTwBsg1fJb&image_url=https://kmajor1.github.io/apitest/barack.jpg';
 
 console.log(config.apiUrl);
 
