@@ -17,7 +17,7 @@ console.log(config.apiUrl);
 
 
 $.ajax({
-    type: config.type,
+    method: 'POST',
     URL: url
 }).then(function (response) {
     alert('worked');
