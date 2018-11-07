@@ -1,5 +1,5 @@
 // connect to face ++ API 
-var imgUrl ='https://upload.wikimedia.org/wikipedia/commons/8/8d/President_Barack_Obama.jpg';
+var imgUrl = 'https://kmajor1.github.io/apitest/barack.jpg';
 var config = {
     api_key: 'pKRNP7idVtOyasyMJnXlqmiEdEFqMQqo',
     api_secret: 'WeZwkBquRvK4iUfVUnfnGviTwBsg1fJb',
