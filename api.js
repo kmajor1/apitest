@@ -20,4 +20,6 @@ $.ajax({
 }).then(function (response) {
     alert('worked');
     console.log(response);
+}, function (err) {
+    console.log(err);
 })
