@@ -18,7 +18,8 @@ console.log(config.apiUrl);
 
 $.ajax({
     method: 'POST',
-    URL: url
+    URL: url,
+    contentType: 'application/json'
 }).then(function (response) {
     alert('worked');
     console.log(response);
