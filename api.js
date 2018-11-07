@@ -17,7 +17,7 @@ console.log(params);
 
 
 $.ajax({
-    method: config.method,
+    type: config.type,
     URL: config.apiUrl+"?"+params
 }).then(function (response) {
     alert('worked');
