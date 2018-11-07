@@ -5,8 +5,10 @@ var config = {
     api_secret: 'WeZwkBquRvK4iUfVUnfnGviTwBsg1fJb',
     image_url: imgUrl,
     type: 'POST', 
-    apiUrl: 'https://api-us.faceplusplus.com/facepp/v3/detect'+"?"+"api_key="+config.api_key+"&api_secret="+config.api_secret+"&image_url="+config.image_url
+
 }
+
+var url = 'https://api-us.faceplusplus.com/facepp/v3/detect'+"?"+"api_key="+config.api_key+"&api_secret="+config.api_secret+"&image_url="+config.image_url;
 
 console.log(config.apiUrl);
 
@@ -16,7 +18,7 @@ console.log(config.apiUrl);
 
 $.ajax({
     type: config.type,
-    URL: config.apiUrl
+    URL: url
 }).then(function (response) {
     alert('worked');
     console.log(response);
