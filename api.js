@@ -4,7 +4,7 @@ var config = {
     api_key: 'pKRNP7idVtOyasyMJnXlqmiEdEFqMQqo',
     api_secret: 'WeZwkBquRvK4iUfVUnfnGviTwBsg1fJb',
     image_url: imgUrl,
-    method: 'POST', 
+    type: 'POST', 
     apiUrl: 'https://api-us.faceplusplus.com/facepp/v3/detect'
 }
 var params = $.param({
